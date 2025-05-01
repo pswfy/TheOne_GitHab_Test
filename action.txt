@@ -120,6 +120,9 @@ git remote -v
 // 更新 remote
 git remote set-url origin git@github.com:pswfy/TheOne_GitHab_Test.git
 
+// 强制堆送 
+git push -u origin div 
+
 
 
 
