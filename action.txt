@@ -112,6 +112,15 @@ git branch -d 分支名称
 dev 分株开发新功能1
 
 
+ping github.com
+
+// 查看允许地地址
+git remote -v
+
+// 更新 remote
+git remote set-url origin git@github.com:pswfy/TheOne_GitHab_Test.git
+
+
 
 
 
