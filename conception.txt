@@ -1,0 +1,25 @@
+ 1、git版本管理工具
+ 2、分布代码管理工具
+
+ 3、三大区域 
+ 
+ 3.1、工作区 【红色】 已管 增/改【自动】
+
+ 3.2、存储区 绿色 git add . git add * git add 文件 变绿色
+
+ 3.3、版本区 可以提交版本了 git commit -m "描述"
+
+ 4、 命令总结
+
+ git init 
+ git add
+ git commit
+ git log
+ git reflog
+ git reset --hard 版本号
+
+
+5、分支 不变的 指针 指向 自己分支 只保留自己有的变动的
+
+6、紧急修复bug思路 建立分支 修改 完成 合并
+

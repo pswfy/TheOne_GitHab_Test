@@ -1,0 +1,113 @@
+git config --global user.name "pswfy"    
+git config --global user.email "524249032@qq.com"   
+
+cd ~/.ssh
+cat id_rsa.pub
+
+初始化命令
+git init
+
+状态
+git status
+
+管理指定文件
+git add 文件
+git add .
+
+
+个人信息配置用户 邮箱
+git config --global user.name "pswfy" 
+git config --global user.email "524249032@qq.com" 
+
+生成版本
+git commit -m 描述信息
+
+版本记录 
+git log
+
+版本回滚
+git reset --hard 版本号 【这个会修改本地文件】 【可以回到之前删除的】
+
+
+查看全部提交 包括之前回滚的
+git reflog 
+
+工作===>缓冲区
+git add . git add -A git add 文件
+
+缓冲区===>版本区
+git commit -m "描述“
+
+版本==>回滚==>缓冲 【直说就是退回commit】
+git reset --soft 版本号
+
+缓冲==>回滚==>工作
+git reset HEAD
+
+工作区 修改-滚动 会干文件 和 hard 都会改
+git checkout --文件名
+
+版本===到=== 工作 红色
+git reset --mix 版本号
+
+版本===到=== 工作 不是红色
+git reset --hard 版本号 【这个会修改本地文件】 【可以回到之前删除的】
+
+
+测试版本区 回到缓存区 添加测试文案 3 git reset --soft 版本号
+
+测试缓冲区回 工作区 红色 1  git reset HEAD
+
+reset --soft xx reset HEAD
+
+
+缓冲==>回滚==>工作 git reset --mix 版本号
+
+测试 版本====工作 红 git reset --mix xx
+
+测试 版本====工作 红 git reset --mix xx 2
+
+测试 版本到 本读 会修改版读文件 reset --hrad xx
+
+git reset --hard 版本号 【这个会修改本地文件】 【可以回到之前删除的】 完成
+
+
+
+git checkout -- 文件名 会修改本读文件 
+
+
+查看分支
+git branch
+
+创建分支 需要看在哪个反支上创建 就指向哪个分支
+git branch dev
+
+
+删除本地
+git branch -d dev
+
+删除远程
+git push origin --delete wfy
+
+
+切换分支
+git checkout dev
+git checkout main
+
+
+测试繁殖切换 
+
+和拼分支 需要先切换到 哪个分支
+
+git merge 目标分支名称
+bug 修复
+
+
+
+
+
+
+
+
+
+
