@@ -16,3 +16,5 @@ git rebase -i 版本号  这个会之后的会整合一起
 git rebase -i HEAD~3 最近3条整合
 
 rebase v5
+
+git log --graph 查看 图形化
