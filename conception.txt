@@ -23,3 +23,15 @@
 
 6、紧急修复bug思路 建立分支 修改 完成 合并
 
+
+7、命令总结
+
+查看 git branch
+
+创建 git branch 分支名称
+
+切换 git checkout 分支名称
+
+删除 git branck -d 分支名称
+
+和拼 git merge 分支名称
