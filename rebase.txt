@@ -1,0 +1,16 @@
+rebase 是git 记录简洁
+
+过个记录整合一个记录
+
+
+rebase v1
+
+rebase v2
+
+rebase v3
+
+rebase v4
+
+git rebase -i 版本号  这个会之后的会整合一起
+
+git rebase -i HEAD~3 最近3条整合
