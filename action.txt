@@ -143,6 +143,15 @@ rebase 简洁 对个记录整合一个记录
 
 在 自分支 git rebase main 在主分支 git merge dev
 
+git pull origin dev  有分支
+
+git fatch origin dev ==> git rebase origin/dev 没有分支
+
+注意事项
+
+git rebase 有冲突 
+
+git rebase --
 
 
 
