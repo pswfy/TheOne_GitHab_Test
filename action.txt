@@ -156,7 +156,28 @@ git rebase --
 dev分支修改
 
 
+总结
 
+添加链接
+git remote add origin url
+
+推送代码
+git push origin 分支
+
+下载代码
+git clone url
+
+拉代码
+git pull origin 分支
+等价
+git fetch origin dev
+git merge origin/dev
+
+变基
+git rebase 分支
+
+记录图形显示
+git log --graph --pretty=format:"%h %s"
 
 
 
