@@ -141,6 +141,7 @@ rebase 简洁 对个记录整合一个记录
 
 测试 rebase 和拼
 
+在 自分支 git rebase main 在主分支 git merge dev
 
 
 
